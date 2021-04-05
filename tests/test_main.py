@@ -2,6 +2,7 @@ import os
 import sys
 
 import pytest
+
 from dcstickers.main import main
 
 

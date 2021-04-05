@@ -5,6 +5,7 @@ Changelog
 --------------
 
 - add ``--version`` option (#5)
+- undo ``.png`` filename hack (#3)
 
 0.1.0
 -----

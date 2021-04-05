@@ -27,9 +27,8 @@ def download_pack(pack: str, stickers_dir: str) -> None:
     pack_dir = os.path.join(stickers_dir, pack_name)
     os.mkdir(pack_dir)
 
-    # TODO: save as .webp, saved as .png as a hack until DeltaChat Desktop accepts .webp as sticker
     for sticker in stickers:
-        name = "{}.{}+{}.png".format(
+        name = "{}.{}+{}.webp".format(
             sticker.id, demojize(sticker.emoji, delimiters=("", "")), sticker.emoji
         )
         with open(os.path.join(pack_dir, name), "wb") as file:

@@ -3,8 +3,11 @@
 import argparse
 import os
 
-from dcstickers import signal
 from emoji import demojize
+
+from dcstickers import signal
+
+from . import __version__
 
 
 def main() -> None:
@@ -71,6 +74,13 @@ def get_parser() -> argparse.ArgumentParser:
         dest="dcdir",
         metavar="DELTACHAT-DIR",
         help="path to the DeltaChat configuration folder (by default it is auto-detected)",
+    )
+    parser.add_argument(
+        "-v",
+        "--version",
+        action="version",
+        version=__version__,
+        help="show program's version number and exit.",
     )
 
     return parser

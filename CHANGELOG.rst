@@ -11,4 +11,4 @@ Changelog
 
 - initial release
 
-.. _Unreleaseed: https://github.com/simplebot-org/simplebot/compare/v0.1.0...HEAD
+.. _Unreleaseed: https://github.com/adbenitez/dcstickers/compare/v0.1.0...HEAD

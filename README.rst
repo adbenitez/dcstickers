@@ -15,8 +15,11 @@
 .. image:: https://pepy.tech/badge/dcstickers
    :target: https://pepy.tech/project/dcstickers
 
-.. image:: https://img.shields.io/github/license/adbenitez/dcstickers
-   :target: https://github.com/adbenitez/dcstickers/blob/master/LICENSE
+.. image:: https://img.shields.io/pypi/l/dcstickers.svg
+   :target: https://pypi.org/project/dcstickers
+
+.. image:: https://github.com/adbenitez/dcstickers/actions/workflows/python-ci.yml/badge.svg
+   :target: https://github.com/adbenitez/dcstickers/actions/workflows/python-ci.yml
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/psf/black

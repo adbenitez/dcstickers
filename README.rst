@@ -1,3 +1,5 @@
+**DEPRECATED: use https://github.com/adbenitez/simplebot_stickers**
+
 .. image:: https://github.com/adbenitez/dcstickers/raw/master/screenshot.png
    :align: center
    :height: 400
